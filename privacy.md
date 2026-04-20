@@ -134,4 +134,4 @@ support@smartinnovationforyou.com
 
 ---
 
-_This policy applies to AL n Me (com.smartinnovationforyou.shopnevent) on iOS._
+_This policy applies to AL n Me (com.smartinnovationforyou.ALnMe) on iOS._
