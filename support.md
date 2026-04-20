@@ -110,4 +110,4 @@ opens automatically and shows you a preview before importing.
 
 ---
 
-_AL n Me — com.smartinnovationforyou.shopnevent — iOS_
+_AL n Me — com.smartinnovationforyou.ALnMe — iOS_
