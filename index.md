@@ -5,7 +5,8 @@ title: AL n Me — Legal & Support
 
 # AL n Me
 
-**Your personal organiser — shopping, tasks, events, travels.**
+**Organized life, peaceful mind**  
+*La vie organisée, l'esprit serein*
 
 ---
 
