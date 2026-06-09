@@ -5,11 +5,11 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AL n Me — Your all-in-one organizer</title>
-  <meta name="description" content="Shopping, Tasks, Events, and Travels on your iPhone. No account. No server. Your data stays yours.">
+  <meta name="description" content="Shopping, Tasks, Events, Travels, and Outdoors on your iPhone. No account. No server. Your data stays yours.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=9">
   <link rel="icon" type="image/png" href="assets/icon.png?v=2">
   <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js"></script>
 </head>
@@ -47,13 +47,13 @@
     <!-- EN -->
     <div class="lang-en">
       <p class="hero-tagline">Free your mind</p>
-      <p class="hero-subtitle">Shopping, Tasks, Events, and Travels on your iPhone. No account. No server. Your data stays yours, always.</p>
+      <p class="hero-subtitle">Shopping, Tasks, Events, Travels, and Outdoors on your iPhone. No account. No server. Your data stays yours, always.</p>
     </div>
 
     <!-- FR -->
     <div class="lang-fr" style="display:none">
       <p class="hero-tagline">Libère ton esprit</p>
-      <p class="hero-subtitle">Courses, Tâches, Événements et Voyages sur votre iPhone. Pas de compte. Pas de serveur. Vos données vous appartiennent, toujours.</p>
+      <p class="hero-subtitle">Courses, Tâches, Événements, Voyages et Sorties sur votre iPhone. Pas de compte. Pas de serveur. Vos données vous appartiennent, toujours.</p>
     </div>
 
     <div class="appstore-badge-wrap">
@@ -65,6 +65,32 @@
   </div>
 </section>
 
+<!-- ── Stats band ───────────────────────────────────────────── -->
+<section class="stats-band">
+  <div class="container">
+    <div class="stat-item">
+      <span class="stat-number">5</span>
+      <span class="stat-label lang-en">Features</span>
+      <span class="stat-label lang-fr" style="display:none">Fonctionnalités</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">0</span>
+      <span class="stat-label lang-en">Servers</span>
+      <span class="stat-label lang-fr" style="display:none">Serveurs</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">100%</span>
+      <span class="stat-label lang-en">Private</span>
+      <span class="stat-label lang-fr" style="display:none">Privé</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">iPhone</span>
+      <span class="stat-label lang-en">+ Apple Watch</span>
+      <span class="stat-label lang-fr" style="display:none">+ Apple Watch</span>
+    </div>
+  </div>
+</section>
+
 <!-- ── Features ─────────────────────────────────────────────── -->
 <section class="features" id="features">
   <div class="container">
@@ -72,34 +98,44 @@
     <!-- EN -->
     <div class="lang-en">
       <h2 class="section-title">One app for your whole life</h2>
-      <div class="features-grid">
+      <p class="features-export-note">Every feature lets you export as PDF or data file and share instantly.</p>
+      <div class="features-row features-row-3">
         <div class="feature-card">
           <div class="feature-icon-tile">
             <img src="assets/symbol-shopping.png" alt="Shopping">
           </div>
           <h3>Shopping</h3>
-          <p>Build your list from a personal catalog. Geofence alerts remind you what to buy the moment you walk into a shop. Share lists with family — no account needed.</p>
+          <p>Build your list from a personal catalog. Geofence alerts remind you what to buy the moment you walk into a shop. Share lists with family.<br>No account needed. Share it!</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon-tile">
             <img src="assets/symbol-tasks.png" alt="Tasks">
           </div>
           <h3>Tasks</h3>
-          <p>Organize by category and space. Set reminders, attach locations, and assign tasks to people. See everything on a full-screen map.</p>
+          <p>Organize by category and space. Set reminders, attach locations, and assign tasks to people. See everything on a full-screen map. Share it!</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon-tile">
             <img src="assets/symbol-events.png" alt="Events">
           </div>
           <h3>Events</h3>
-          <p>Plan events with full details — stays, tickets with seat assignments, activities, and attendees. Export everything as a PDF.</p>
+          <p>Plan events with full details.<br>Stays, tickets with seat assignments, activities, and attendees. Export everything as a PDF. Share it!</p>
         </div>
+      </div>
+      <div class="features-row features-row-2">
         <div class="feature-card">
           <div class="feature-icon-tile">
             <img src="assets/symbol-travels.png" alt="Travels">
           </div>
           <h3>Travels</h3>
-          <p>Full trip planning stop by stop — transport, accommodation, activities, and packing lists from 11 ready-made templates.</p>
+          <p>Plan, adjust, enjoy every journey stop by stop and get cost.<br>Stays, transports, tickets, companions, and activities. All in one place. Share it!</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon-tile">
+            <img src="assets/symbol-outdoors.png" alt="Outdoors">
+          </div>
+          <h3>Outdoors</h3>
+          <p>Prepare, record, act and compare every run or challenge.<br>Live GPS tracking, elevation and speed charts, heart rate, checkpoints, in-app coaching guidance, and full route replay. Your adventures, mapped for life. Share it!</p>
         </div>
       </div>
     </div>
@@ -107,26 +143,36 @@
     <!-- FR -->
     <div class="lang-fr" style="display:none">
       <h2 class="section-title">Une app pour toute votre vie</h2>
-      <div class="features-grid">
+      <p class="features-export-note">Chaque fonctionnalité permet d'exporter en PDF ou fichier de données et de partager instantanément.</p>
+      <div class="features-row features-row-3">
         <div class="feature-card">
           <div class="feature-icon-tile"><img src="assets/symbol-shopping.png" alt="Courses"></div>
           <h3>Courses</h3>
-          <p>Construisez votre liste depuis un catalogue personnel. Des alertes de proximité vous rappellent vos achats dès l'entrée dans un magasin. Partagez des listes en famille — sans compte.</p>
+          <p>Construisez votre liste depuis un catalogue personnel. Des alertes de proximité vous rappellent vos achats dès l'entrée dans un magasin. Partagez des listes en famille.<br>Sans compte. Partagez-le !</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon-tile"><img src="assets/symbol-tasks.png" alt="Tâches"></div>
           <h3>Tâches</h3>
-          <p>Organisez par catégorie et espace. Définissez des rappels, associez des lieux, assignez des tâches à des personnes. Visualisez tout sur une carte.</p>
+          <p>Organisez par catégorie et espace. Définissez des rappels, associez des lieux, assignez des tâches à des personnes. Visualisez tout sur une carte. Partagez-le !</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon-tile"><img src="assets/symbol-events.png" alt="Événements"></div>
           <h3>Événements</h3>
-          <p>Planifiez avec tous les détails — séjours, billets avec places, activités et participants. Exportez tout en PDF.</p>
+          <p>Planifiez avec tous les détails.<br>Séjours, billets avec places, activités et participants. Exportez tout en PDF. Partagez-le !</p>
         </div>
+      </div>
+      <div class="features-row features-row-2">
         <div class="feature-card">
           <div class="feature-icon-tile"><img src="assets/symbol-travels.png" alt="Voyages"></div>
           <h3>Voyages</h3>
-          <p>Planification complète étape par étape — transports, hébergements, activités et listes de bagages depuis 11 modèles prêts à l'emploi.</p>
+          <p>Planifiez, ajustez, profitez de chaque voyage étape par étape et gérez les coûts.<br>Séjours, transports, billets, compagnons et activités. Tout au même endroit. Partagez-le !</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon-tile">
+            <img src="assets/symbol-outdoors.png" alt="Sorties">
+          </div>
+          <h3>Sorties</h3>
+          <p>Préparez, enregistrez, agissez et comparez chaque sortie ou défi.<br>Tracé GPS en direct, courbes d'altitude et de vitesse, fréquence cardiaque, points de passage, coaching intégré et replay de parcours. Partagez vos aventures, cartographiées pour toujours. Partagez-le !</p>
         </div>
       </div>
     </div>
@@ -140,12 +186,12 @@
 
     <div class="lang-en">
       <h2 class="section-title">Private by design</h2>
-      <p>We have no server. We have no account system. We cannot read your data — not now, not ever. Share lists with encrypted files through any messaging app you already use.</p>
+      <p>We have no server. We have no account system. We cannot read your data, not now, not ever. Share lists with encrypted files through any messaging app you already use.</p>
     </div>
 
     <div class="lang-fr" style="display:none">
       <h2 class="section-title">Privé par conception</h2>
-      <p>Nous n'avons pas de serveur. Nous n'avons pas de système de comptes. Nous ne pouvons pas lire vos données — ni maintenant, ni jamais. Partagez des listes par fichiers chiffrés via la messagerie de votre choix.</p>
+      <p>Nous n'avons pas de serveur. Nous n'avons pas de système de comptes. Nous ne pouvons pas lire vos données, ni maintenant, ni jamais. Partagez des listes par fichiers chiffrés via la messagerie de votre choix.</p>
     </div>
 
     <div class="privacy-pills">
@@ -168,12 +214,12 @@
 
     <div class="lang-en">
       <h2 class="section-title">Your voice, your language</h2>
-      <p>Add shopping items, create tasks, pack and unpack your bags — just by speaking. English and French. Processed on your device. Nothing is recorded.</p>
+      <p>Add shopping items, create tasks, pack and unpack your bags,<br>just by speaking in English and French.<br>Processed on your device. Nothing is recorded.</p>
     </div>
 
     <div class="lang-fr" style="display:none">
       <h2 class="section-title">Votre voix, votre langue</h2>
-      <p>Ajoutez des articles, créez des tâches, préparez vos bagages — simplement en parlant. Français et anglais. Traitement sur l'appareil. Rien n'est enregistré.</p>
+      <p>Ajoutez des articles, créez des tâches, préparez vos bagages,<br>simplement en parlant en français et en anglais.<br>Traitement sur l'appareil. Rien n'est enregistré.</p>
     </div>
 
   </div>
@@ -188,8 +234,8 @@
 
       <div class="lang-en al-text">
         <h2 class="section-title">Meet AL</h2>
-        <p class="al-role">Alfred — your personal butler</p>
-        <p>AL is always here to help. He guides you through the app, answers your voice commands, and appears at the top of every advanced view — tap his avatar for tips and shortcuts.</p>
+        <p class="al-role">Alfred, your personal butler</p>
+        <p>AL is always here to help. He guides you through the app, answers your voice commands, and appears at the top of every advanced view. Tap his avatar for tips and shortcuts.</p>
         <div class="al-quotes">
           <span class="pill">Always listening</span>
           <span class="pill">Voice commands</span>
@@ -199,8 +245,8 @@
 
       <div class="lang-fr al-text" style="display:none">
         <h2 class="section-title">Rencontrez AL</h2>
-        <p class="al-role">Alfred — votre majordome personnel</p>
-        <p>AL est toujours là pour vous. Il vous guide dans l'application, répond à vos commandes vocales et apparaît en haut de chaque vue avancée — touchez son avatar pour des conseils et raccourcis.</p>
+        <p class="al-role">Alfred, votre majordome personnel</p>
+        <p>AL est toujours là pour vous. Il vous guide dans l'application, répond à vos commandes vocales et apparaît en haut de chaque vue avancée. Touchez son avatar pour des conseils et raccourcis.</p>
         <div class="al-quotes">
           <span class="pill">Toujours disponible</span>
           <span class="pill">Commandes vocales</span>
@@ -218,12 +264,12 @@
 
     <div class="lang-en">
       <h2 class="section-title">Free for 90 days</h2>
-      <p>Everything is free from your first launch — no credit card, no commitment. Shopping is always free, forever. After 90 days, a single subscription unlocks Tasks, Events, and Travels.</p>
+      <p>Everything is free from your first launch, no credit card, no commitment. Shopping is always free, forever. After 90 days, a single subscription unlocks Tasks, Events, Travels, and Outdoors.</p>
     </div>
 
     <div class="lang-fr" style="display:none">
       <h2 class="section-title">Gratuit pendant 90 jours</h2>
-      <p>Tout est gratuit dès le premier lancement — pas de carte bancaire, pas d'engagement. Les Courses sont toujours gratuites. Après 90 jours, un abonnement unique débloque Tâches, Événements et Voyages.</p>
+      <p>Tout est gratuit dès le premier lancement, pas de carte bancaire, pas d'engagement. Les Courses sont toujours gratuites. Après 90 jours, un abonnement unique débloque Tâches, Événements, Voyages et Sorties.</p>
     </div>
 
   </div>
@@ -239,6 +285,79 @@
   </div>
   <div>© 2026 Smart Innovation For You</div>
 </footer>
+
+<!-- ── Scroll animations ──────────────────────────────────────── -->
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+  // Sections below fold — fade in on scroll
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      document.querySelectorAll('.stats-band, .privacy-block, .voice-block, .al-block, .trial-block').forEach(el => {
+        el.classList.add('fade-up');
+        observer.observe(el);
+      });
+    });
+  });
+
+  // Feature cards — staggered slide-up on load
+  const cards = document.querySelectorAll('.feature-card');
+  cards.forEach(c => c.classList.add('card-hidden'));
+  cards.forEach((card, i) => {
+    setTimeout(() => {
+      card.classList.remove('card-hidden');
+      card.classList.add('card-visible');
+    }, 300 + i * 420);
+  });
+</script>
+
+<!-- ── Stats count-up ─────────────────────────────────────────── -->
+<script>
+  (function() {
+    const targets = [
+      { el: null, target: 5,   suffix: '',   decimals: 0 },
+      { el: null, target: 0,   suffix: '',   decimals: 0 },
+      { el: null, target: 100, suffix: '%',  decimals: 0 },
+      { el: null, target: null, suffix: '', decimals: 0 }, // "iPhone" — skip count-up
+    ];
+    const nums = document.querySelectorAll('.stat-number');
+    nums.forEach((el, i) => { if (targets[i]) targets[i].el = el; });
+
+    function countUp(el, target, suffix, decimals, duration) {
+      const start = performance.now();
+      function step(now) {
+        const progress = Math.min((now - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        const value = target * eased;
+        el.textContent = value.toFixed(decimals) + suffix;
+        if (progress < 1) requestAnimationFrame(step);
+        else el.textContent = target.toFixed(decimals) + suffix;
+      }
+      requestAnimationFrame(step);
+    }
+
+    const statsObs = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        statsObs.unobserve(entry.target);
+        targets.forEach(t => {
+          if (!t.el || t.target === null) return;
+          countUp(t.el, t.target, t.suffix, t.decimals, 1400);
+        });
+      });
+    }, { threshold: 0.3 });
+
+    const band = document.querySelector('.stats-band');
+    if (band) statsObs.observe(band);
+  })();
+</script>
 
 <!-- ── Language switcher JS ───────────────────────────────────── -->
 <script>
