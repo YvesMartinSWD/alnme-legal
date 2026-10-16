@@ -398,12 +398,13 @@ section {
   padding: 28px 24px;
 }
 
+/* 16/10/2026 (user): the 4 blocks aligned — equal columns (4 on a wide screen, 2 × 2 on a phone);
+   no vertical dividers (user, 16/10/2026 11:45). */
 .stats-band .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: start;
+  row-gap: 20px;
 }
 
 .stat-item {
@@ -411,11 +412,14 @@ section {
   flex-direction: column;
   align-items: center;
   gap: 4px;
-  padding: 0 24px;
+  padding: 0 12px;
+  text-align: center;
 }
 
-.stat-item + .stat-item {
-  border-left: 1px solid var(--divider);
+@media (max-width: 600px) {
+  .stats-band .container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 .stat-number {
@@ -567,6 +571,12 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+/* 16/10/2026 (user): the avatar centred on the text block — no bottom margin after the last line
+   (it was the space above the 3 labels, removed the same day). */
+.al-text p:last-child {
+  margin-bottom: 0;
 }
 
 @media (max-width: 600px) {
